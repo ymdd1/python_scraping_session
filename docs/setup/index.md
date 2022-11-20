@@ -20,9 +20,7 @@ pyenvはpythonのバージョン管理ツールです。
 nodeで言うところのnvmです。
 
 
-下記を参考にpyenvのインストールをしてください。
-
-https://qiita.com/koooooo/items/b21d87ffe2b56d0c589b
+[こちら](https://qiita.com/koooooo/items/b21d87ffe2b56d0c589b)を参考にpyenvのインストールをしてください。
 
 インストールが終わったら、下記のコマンドを実行して、python3.9.12をインストールしてください。
 
@@ -81,9 +79,7 @@ $ python3 -m venv myvenv
 $ source myvenv/bin/activate
 ```
 
-※windowsの方は、下記のサイトを参考にしてください。<br>
-仮想環境の名前は、`myvenv`にしてください。<br>
-https://it-engineer-info.com/language/python/5545/
+※windowsの方は、[こちらのサイト](https://it-engineer-info.com/language/python/5545/)を参考にしてください。その際、仮想環境の名前は、`myvenv`にしてください。<br>
 
 ### 仮想環境が立ち上がっているか確認
 
