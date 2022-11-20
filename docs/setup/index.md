@@ -95,7 +95,7 @@ $ python hello.py
 
 実行後、下記のように`Hello! Take it easy`と表示されればOKです。
 
-![take it easy](/docs/images/hello_py.png) 
+![take it easy]([/docs/images/hello_py.png](https://github.com/ymdd1/python_scraping_session/blob/main/docs/images/hello_py.png?raw=true)) 
 
 ### 仮想環境の操作コマンド
 下記のコマンドで仮想環境の立ち上げ・終了できます。<br>
