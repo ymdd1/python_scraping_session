@@ -121,3 +121,12 @@ $ pip install -r requirements.txt
 ```
 
 上記のコマンドにより、`requirements.txt`ファイルに記述されているパッケージをローカル内にインストールします。
+
+pip（ピップ）とは、プログラミング言語のPythonで開発されたパッケージを管理するためのパッケージ管理システムの一つで、Pythonに標準で含まれるため広く普及しています。nodeで言うところの`npm`になるかと思います。
+
+pipを使うことは多いので、覚えておきましょう。
+
+`pip install パッケージ名`でパッケージのインストールができます。
+
+今回は、`requirements.txt`ファイルに記載したパッケージ群を一気にインストールするコマンドを実行しています。
+詳しく知りたい方は[こちら](https://note.nkmk.me/python-pip-install-requirements/)を参照してください。
