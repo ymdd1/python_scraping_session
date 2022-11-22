@@ -1,7 +1,7 @@
 # 事前準備
 
 事前準備として、下記の作業をしていただきます。<br>
-このページでは、開発環境作成に関して取り上げます。
+このページでは、主に開発環境作成に関して取り上げます。
 
 - gitのインストール（割愛）
 - githubアカウントの作成（割愛）
@@ -10,7 +10,22 @@
 - pythonのインストール（割愛）
   - インストールするpythonのバージョンは3系にしてください。今回は、python3.9.12を使用します。
   - お使いのマシンによっては、python2系がすでにインストールされている場合もあるので、ご注意ください。
+- 事前学習
 - 開発環境作成
+
+# 事前学習
+
+勉強会前に下記のサイトには目を通しておいてください。
+`Google Colaboratory`を使って開発環境等を作らずともコードを書けるかと思います。
+特に辞書型やリスト型に関する知識は必ず必要になります。
+
+- [Python基礎の基礎](https://www.python.jp/train/type_and_func/index.html)
+- [文字列と入出力](https://www.python.jp/train/string/index.html)
+- [条件式と分岐](https://www.python.jp/train/if_condition/index.html)
+- [ブール型と論理演算子](https://www.python.jp/train/logical_oper/index.html)
+- [関数の定義](https://www.python.jp/train/function/index.html)
+- [Pythonの型とオブジェクト](https://www.python.jp/train/list/index.html)
+- [辞書](https://www.python.jp/train/dict/index.html)
 
 # 開発環境作成
 
