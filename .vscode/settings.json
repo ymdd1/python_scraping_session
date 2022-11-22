@@ -1,0 +1,19 @@
+{
+  "[django-html]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Glavin001.unibeautify-vscode"
+  },
+  "python.linting.enabled": true,
+  "unibeautify.defaultConfig": ".unibeautifyrc.json",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python", // Prettier を使わないようにする
+    "editor.formatOnSave": true // ファイル保存時に自動フォーマット
+  },
+  "python.formatting.provider": "black",
+  "python.analysis.extraPaths": [
+    "./codes/myvenv/lib/python3.9/site-packages/"
+  ],
+  "python.formatting.blackPath": "./codes/myvenv/bin/black",
+  "editor.formatOnSave": true
+}
