@@ -3,13 +3,13 @@ import requests
 from bs4 import BeautifulSoup
 
 
-def post_list(request):
+def index(request):
     target_url = request.GET.get("target_url")
 
     if not target_url:
         return render(
             request,
-            "scraping/post_list.html",
+            "scraping/index.html",
             {
                 "target_url": "",
                 "result": "",
@@ -28,7 +28,7 @@ def post_list(request):
 
     return render(
         request,
-        "scraping/post_list.html",
+        "scraping/index.html",
         {
             "target_url": target_url,
             "result": result,
