@@ -1,0 +1,18 @@
+<html>
+
+  <body>
+    <h1>spread sheet</h1>
+
+    <form>
+      <input name="target_url" type="text" value="{{target_url}}"
+        style="width:500px;" />
+      <button>submit</button>
+    </form>
+
+    <h2>データ抽出結果</h2>
+    <div>{{ result | linebreaks }}</div>
+    <h2 style="margin-top:50px;">データ取得結果</h2>
+    <div>{{ origin_html | linebreaks }}</div>
+  </body>
+
+</html>

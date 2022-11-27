@@ -35,3 +35,7 @@ def index(request):
             "origin_html": soup.prettify(),
         },
     )
+
+
+def gs(request):
+    return render(request, "scraping/gs.html")
