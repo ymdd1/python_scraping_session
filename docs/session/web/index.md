@@ -136,8 +136,8 @@ result = [e.text for e in soup.find_all(class_="gnav_label")] ・・・・❸
 これにより、ヘッダーのテキストが配列で取得できました。
 
 `BeautifulSoup`のメソッドなどは、下記の記事が参考になります。
-- https://yu-nix.com/archives/bs4-class/
-- https://python.civic-apps.com/beautifulsoup4-selector/
+- [https://yu-nix.com/archives/bs4-class/](https://yu-nix.com/archives/bs4-class/)
+- [https://python.civic-apps.com/beautifulsoup4-selector/](https://python.civic-apps.com/beautifulsoup4-selector/)
 
 
 ## 実践してみる
