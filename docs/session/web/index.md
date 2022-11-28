@@ -144,6 +144,9 @@ result = [e.text for e in soup.find_all(class_="gnav_label")] ・・・・❸
 
 トップページの新着情報を取得してみましょう。新着情報のタイトルを抽出し、文字列の配列で表示させてください。
 
+下記のように表示されればOKです。
+![titles](https://github.com/ymdd1/python_scraping_session/blob/main/docs/images/titles.png?raw=true) 
+
 ### ヒント
 1. まずは、下記のリンクにアクセスして、新着情報のhtmlタグを探してみましょう。ブラウザのデベロッパーツールを開くと、htmlタグを確認することができます。
 ```
