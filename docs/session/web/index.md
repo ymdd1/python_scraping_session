@@ -157,7 +157,11 @@ https://www2.teijin-frontier.com/
 2. 対象のhtmlタグを見つけたら、抽出するクラス名は何か見てみましょう。`js-tab_body c-tab_body is-show`というclassが指定されているdivタグの中に`news-compo`というclassが指定されたdivタグがありますね。その中身に新着情報が格納されているようです。タイトルはどんなクラス名でしょうか？
 
 3. 処理の流れは、findメソッドで、`js-tab_body c-tab_body is-show`クラス配下を抽出します。その中から、find_allメソッドでタイトルだけを抽出する（2で調査したタイトルのクラス名が重要です）。あとは、`.text`を用いて文字列の配列を作ればできます。
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+[> スプレッドシート連携に続く...](../gsheets/index.md)
 
 
