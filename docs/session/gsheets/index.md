@@ -145,3 +145,17 @@ for index, content in enumerate(list):
 読み書きの回数制限に達したというエラーです。少し待つと解消されるので、問題ありません。
 
 
+## カテゴリーをスプレッドシートに書き込む
+
+次は、トップページのカテゴリーをスプレッドシートに書き込んでみましょう。下記の画像URLと、カテゴリー名を書き込んでみたいと思います。
+<br><br><br>
+![categories](https://github.com/ymdd1/python_scraping_session/blob/main/docs/images/categories.png?raw=true) 
+
+
+書き出したイメージはこのような感じです。
+<br><br><br>
+![gs_sample](https://github.com/ymdd1/python_scraping_session/blob/main/docs/images/gs_categories.png?raw=true) 
+
+
+### ヒント
+- カテゴリー要素だけに共通するクラス名を見つけてみましょう。
