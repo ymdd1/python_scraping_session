@@ -86,7 +86,7 @@ def gs(request):
       text = r.text
       sheet.update_cell(4, i + 2, text)
 
-  sheet.update_cell(6, 1, "最新情報")
+  sheet.update_cell(6, 1, "新着情報")
 
   return render(
       request,
@@ -108,6 +108,40 @@ http://127.0.0.1:8000/gs
 ![gs_sample](https://github.com/ymdd1/python_scraping_session/blob/main/docs/images/gs_sample.png?raw=true) 
 
 
+## 新着情報をスプレッドシートに書き込む
 
-書き込みは100回に制限されていることがわかります。
+先程スクレイピングで取得した新着情報を、スプレッドシートに書き込んでみましょう。
+
+下記のように表示されているのが目標です。日付表示は余力のある方で構いません。
+<br><br>
+![gs_sample](https://github.com/ymdd1/python_scraping_session/blob/main/docs/images/gs_news_contents.png?raw=true) 
+
+
+タイトル文字列が入った配列をループで回し、`sheet.update_cell()`関数を使って、1行ずつスプレッドシートに書き込んでいきます。
+
+### sheet.update_cell()について
+`sheet.update_cell()`関数は、スプレッドシートのセルにデータを入力できる関数です。使用の際には、3つの引数が必要です。
+- 第一引数は、行番号です。スプレッドシートの`横グリッド`に値します。int型で指定しましょう。
+- 第ニ引数は、列番号です。スプレッドシートの`縦グリッド`に値します。int型で指定しましょう。
+- 第三引数は、テキストです。表示したい内容を指定しましょう。
+
+
+```python
+sheet.update_cell(1,2, "テスト") // B1のセルに"テスト"と表示されます。
+```
+
+### ヒント
+
+1. `enumerate`関数を使ってループ処理をすると、現在実行中の配列番号が取得できます。この番号を使って、行番号を動的に指定できます。
+
+```python
+for index, content in enumerate(list):
+  print(index) // 配列番号です。0から始まります。
+  print(content) // 配列の要素です。
+```
+
+### 注意事項
+たまに、429エラーとdjangoのページ（`/gs`）に表示されることがあります。
+読み書きの回数制限に達したというエラーです。少し待つと解消されるので、問題ありません。
+
 
