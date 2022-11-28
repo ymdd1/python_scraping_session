@@ -10,6 +10,8 @@
 
 ## 勉強会実践内容
 
-1. [スクレイピングをやってみる](./session/web/index.md)
+1. [おさらい＋α](./session/reviews/index.md)
 
-2. [スクレイピング結果をスプレッドシートに書き込んでみる](./session/gsheets/index.md)
+2. [スクレイピングをやってみる](./session/web/index.md)
+
+3. [スクレイピング結果をスプレッドシートに書き込んでみる](./session/gsheets/index.md)
